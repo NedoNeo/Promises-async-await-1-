@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './js/index.js',
+  entry: './js/app.js',
   output: {
     path: path.resolve(__dirname, 'dist'), // каталог для результатов сборки 
     filename: 'main.js', // имя файла с результатами сборки (должно совпадать с entry point в шаге 1)
